@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress' );
+define( 'DB_NAME', 'database_name_here' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'username_here' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'password_here' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'hM;Fu34PY0Za>PM<$?Sn1!X.I1,f8DbaJ85jGU]Cl#[r1b6}nZ1TBb7^3c.+Nk57' );
-define( 'SECURE_AUTH_KEY',  'GW0Sk 6#QNTO5-Y[5$eus/>>(q6XgM</0ZOq3b!4WfXOF5EpUAJWfcHe7RZFNh/I' );
-define( 'LOGGED_IN_KEY',    'NK.?NSB n8xnJ.F1P!f}gqq6<|$fle0w?(n%AqsG[b&g-n!:SpG6`m!PPuvbd]|!' );
-define( 'NONCE_KEY',        '}X{p7^OhYbwRxJFX>&k+ ]ZiBu_l+:IUDBR@-+]f1k/}OzdN}hKur=h0]{dtl(U1' );
-define( 'AUTH_SALT',        '^8_Wt5#)Ha,2f/ys3QZ?&k<Q$f]gyHz=!E.-KAZrHe3Gim=@6W!xiTq]Fv}#Y%)>' );
-define( 'SECURE_AUTH_SALT', '6nVFH#[XpKuOYfT4o+ri+p!/_N%jb:?#,Ne6xU9f1nc/SJ`k@;lUS%U9p)7yYm^b' );
-define( 'LOGGED_IN_SALT',   '3*d@u`L%EM26<M@4<rVt$9.qg:S,nzGo2*W0I`NE0O)o2cFf-_ta}EJp2,PkpG=Y' );
-define( 'NONCE_SALT',       ',j:KuEB`$Vwp7|Fg^REs8sm-[<gmh,BHX}(>!;n/5<ON9FucfT,;hwk-uIMbZYwq' );
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
